@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
+    <title>Sebastian Plazas | WDD231</title>
+    <meta name="description" content="Projects for the course WDD231">
+    <meta name="author" content="Sebastian Plazas">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
 </head>
 <body>
-    <h1>WDD 231 - Plazas</h1>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.svg" loading="lazy" alt="site logo">
+            <span class="head-title">Sebastian Plazas</span>
+            <button class="hamburger" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </header>
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="cardholder">
+            <section class="about card">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugit ex inventore veniam non minima voluptatem quidem suscipit corporis! Ipsum rem impedit eum recusandae veniam dolore fugiat porro saepe neque, fuga laborum voluptate inventore vel vero nam sapiente quibusdam error officiis reiciendis facere minima cum. Ipsam sapiente aperiam amet rem!</p>
+            </section>
+            <section class="photo card">
+                <h2>Student Photo</h2>
+                <img src="images/profile-pic.jpg" loading="lazy" alt="student photo" width="250">
+            </section>
+            <section class="courses card">
+                <h2>Web Certificate Courses</h2>
+                <div id="course-filter"></div>
+                <div id="filtered"></div>
+                <p id="credits"></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="socialmedia">
+            <a href="https://www.linkedin.com/in/sebastianplazas"><img src="images/linkedin.svg" alt="linkedin" width="50"></a>
+            <a href="https://github.com/rangerkoala"><img src="images/github.svg" alt="github" width="50"></a>
+            <a href="https://www.instagram.com/rangerkoala/"><img src="images/instagram.svg" alt="instagram" width="50"></a>
+        </div>
+        <div class="copyright">
+            <p>©<span id="currentYear"></span> 👽 Sebastian Plazas 👽 Bogota, Colombia</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
 </body>
 </html>

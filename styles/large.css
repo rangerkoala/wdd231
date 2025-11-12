@@ -1,0 +1,47 @@
+@media (min-width: 768px) {
+    
+    .hamburger {
+        display: none;
+    }
+
+    .header-container {
+        justify-content: left;
+    }
+
+    .head-title {
+        padding-left: 1rem;
+    }
+
+    nav {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        box-shadow: none;
+        justify-content: space-evenly;
+    }
+
+    .cardholder {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+
+    .about {
+        grid-column: span 2;
+    }
+
+    .courses {
+        grid-column: span 3;
+    }
+
+    #filtered div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #filtered span {
+        text-align: center;
+        margin: 1rem 0.3rem ;
+        padding: 0.5rem;
+    }
+
+}
