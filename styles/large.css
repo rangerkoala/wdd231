@@ -29,6 +29,10 @@
         grid-column: span 2;
     }
 
+    .about p {
+        font-size: 120%;
+    }
+
     .courses {
         grid-column: span 3;
     }
@@ -44,4 +48,11 @@
         padding: 0.5rem;
     }
 
+}
+
+@media (min-width: 1200px) {
+    .cardholder {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
 }
