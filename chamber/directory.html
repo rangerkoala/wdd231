@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory | Chamber of Commerce</title>
+    <meta name="description" content="Check out the directory of the companies that are part of our Chamber of Commerce.">
+    <meta name="author" content="Sebastian Plazas">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Directory | Chamber of Commerce">
+    <meta property="og:description" content="Check out the directory of the companies that are part of our Chamber of Commerce.">
+    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20%281%20of%201%29-5.jpg?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.svg" loading="lazy" alt="site logo" width="75px">
+            <span class="head-title">Chamber of Commerce</span>
+            <button class="hamburger" aria-label="Toggle navigation menu">☰</button>
+        </div>
+        <nav id="nav-menu">
+            <a href="#">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Discover</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Members Directory</h1>
+        <div class="menu">
+            <button type="button" id="grid">Grid</button>
+            <button type="button" id="list">List</button>
+        </div>
+        <div id="cards"></div>
+    </main>
+    <footer>
+        <div class="address">
+            <p><b>The Chamber of Commerce</b><br>
+            123 Chamber ST <br>
+            Chamber City, UT 45678 <br>
+            info@chamberofcommerce.org <br>
+            (222) 333-4444</p>
+        </div>
+        <div class="socialmedia">
+            <a href="#"><img src="images/youtube.svg" alt="youtube" width="50"></a>
+            <a href="#"><img src="images/twitter.svg" alt="twitter" width="50"></a>
+            <a href="#"><img src="images/linkedin.svg" alt="linkedin" width="50"></a>
+        </div>
+        <div class="copyright">
+            <p>WDD231 Class Project <br>
+            Sebastian Plazas</p>
+            <p>©<span id="currentYear"></span> The Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
