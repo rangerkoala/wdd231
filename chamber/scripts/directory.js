@@ -1,12 +1,10 @@
-const url = 'https://rangerkoala.github.io/wdd231/chamber/data/members.json';
-
 const cards = document.querySelector('#cards');
 
 const listbutton = document.querySelector('#list')
 const gridbutton = document.querySelector('#grid')
 
 async function getMembersData() {
-    const response = await fetch(url);
+    const response = await fetch('data/members.json');
     const data = await response.json();
     displayMembers(data.members);
 };

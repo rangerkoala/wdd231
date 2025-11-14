@@ -55,7 +55,7 @@
       "address": "27 Orbit Lane, Seattle, WA 98101",
       "phone": "+1 (206) 555-1177",
       "website": "https://www.lunatechrobotics.com",
-      "image": "https://rangerkoala.github.io/wdd231/chamber/images/lunatech.jpg",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/lunatech.png",
       "membershipLevel": 3,
       "description": "Develops advanced robotics and AI-driven automation for industrial applications.",
       "foundedYear": 2018
@@ -85,7 +85,7 @@
       "address": "890 Sun Valley Rd, Phoenix, AZ 85004",
       "phone": "+1 (602) 555-2909",
       "website": "https://www.solaredgeenergyco.com",
-      "image": "https://rangerkoala.github.io/wdd231/chamber/images/solaredge-logo.svg",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/solaredge-logo.png",
       "membershipLevel": 3,
       "description": "Renewable energy provider offering solar panel installations and sustainable power systems for homes and businesses.",
       "foundedYear": 2009
