@@ -1,11 +1,3 @@
-:root{
-    --primary-color: #01161e; 
-    --secondary-color: #124559; 
-    --back-color: #eeeeee;
-    --heading-font: "Bebas Neue", sans-serif;
-    --body-font: "Source Sans 3", sans-serif;
-}
-
 .menu {
     text-align: center;
     margin: 0.3rem 0;
