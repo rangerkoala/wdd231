@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory | Chamber of Commerce</title>
-    <meta name="description" content="Check out the directory of the companies that are part of our Chamber of Commerce.">
+    <title>Home | Chamber of Commerce</title>
+    <meta name="description" content="Welcome to the Chamber of Commerce, learn more about what we do.">
     <meta name="author" content="Sebastian Plazas">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Directory | Chamber of Commerce">
-    <meta property="og:description" content="Check out the directory of the companies that are part of our Chamber of Commerce.">
+    <meta property="og:title" content="Home | Chamber of Commerce">
+    <meta property="og:description" content="Welcome to the Chamber of Commerce, learn more about what we do.">
     <meta property="og:url" content="https://rangerkoala.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://rangerkoala.github.io/wdd231/chamber/images/meta-image.jpg">
     <script src="scripts/dates.js" defer></script>
@@ -17,7 +17,7 @@
     <script src="scripts/spotlight.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -49,7 +49,7 @@
         </section>
         <h1>Home</h1>
         <section class="home-info">
-            <section class="events">
+            <section class="events home-card">
                 <h2>Events</h2>
                 <div class="event-cards">
                     <div class="event">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
             </section>
-            <section class="weather">
+            <section class="weather home-card">
                 <h2>Current Weather</h2>
                 <figure>
                     <img id="weather-icon" src="" alt="">
@@ -76,12 +76,13 @@
                     <p id="weather-des"></p>
                 </div>
             </section>
-            <section class="forecast-card">
+            <section class="forecast-card home-card">
                 <h2>Weather Forecast</h2>
                 <div class="weather-fc" id="w-forecast"></div>
             </section>
         </section>
         <section class="spotlight">
+            <h2>Spotlight Businesses</h2>
             <div id="spotlight-cards" class="spot-cards"></div>
         </section>
     </main>
