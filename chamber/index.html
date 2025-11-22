@@ -13,7 +13,8 @@
     <meta property="og:image" content="https://rangerkoala.github.io/wdd231/chamber/images/meta-image.jpg">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/directory.css">
@@ -36,12 +37,53 @@
         </nav>
     </header>
     <main>
-        <h1>Members Directory</h1>
-        <div class="menu">
-            <button type="button" id="grid">Grid</button>
-            <button type="button" id="list">List</button>
-        </div>
-        <div id="cards"></div>
+        <section class="hero-section">
+            <picture class="hero-image">
+                <source srcset="images/hero-image-l.jpg" media="(min-width: 1000px)">
+                <source srcset="images/hero-image-m.jpg" media="(min-width: 768px)">
+                <img src="images/hero-image-s.jpg" alt="JossiPhotos hero image" loading="lazy">
+            </picture>
+            <div class="hero-button">
+                <button>Join Us</button>
+            </div> 
+        </section>
+        <h1>Home</h1>
+        <section class="home-info">
+            <section class="events">
+                <h2>Events</h2>
+                <div class="event-cards">
+                    <div class="event">
+                        <h3>Networking Breakfast</h3>
+                        <p>Date: July 15, 2024</p>
+                        <p>Time: 8:00 AM - 10:00 AM</p>
+                        <p>Location: Chamber Hall</p>
+                    </div>
+                    <div class="event">
+                        <h3>Business Expo</h3>
+                        <p>Date: August 20, 2024</p>
+                        <p>Time: 10:00 AM - 4:00 PM</p>
+                        <p>Location: Downtown Convention Center</p>
+                    </div>
+                </div>
+            </section>
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                </figure>
+                <div class="weather-info">
+                    <p id="weather-temp"></p>
+                    <p id="weather-des"></p>
+                </div>
+            </section>
+            <section class="forecast-card">
+                <h2>Weather Forecast</h2>
+                <div class="weather-fc" id="w-forecast"></div>
+            </section>
+        </section>
+        <section class="spotlight">
+            <div id="spotlight-cards" class="spot-cards"></div>
+        </section>
     </main>
     <footer>
         <div class="address">
