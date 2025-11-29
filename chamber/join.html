@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory | Chamber of Commerce</title>
-    <meta name="description" content="Check out the directory of the companies that are part of our Chamber of Commerce.">
+    <title>Join Us | Chamber of Commerce</title>
+    <meta name="description" content="Be part of our Chamber of Commerce and get access to all our benefits.">
     <meta name="author" content="Sebastian Plazas">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Directory | Chamber of Commerce">
-    <meta property="og:description" content="Check out the directory of the companies that are part of our Chamber of Commerce.">
-    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="Join Us | Chamber of Commerce">
+    <meta property="og:description" content="Be part of our Chamber of Commerce and get access to all our benefits.">
+    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/chamber/join.html">
     <meta property="og:image" content="https://rangerkoala.github.io/wdd231/chamber/images/meta-image.jpg">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/join.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/join.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
             <a href="#">Discover</a>
         </nav>
     </header>
-    <main>
+    <main class="main-join">
         <section class="join-form">
             <h2>Join Us Now!</h2>
             <form action="thankyou.html" method="get">
@@ -99,6 +99,38 @@
                 <button class="open-modal btn" data-modal="modal-gold">Learn More</button>
             </div>
         </section>
+
+        <div class="modal" id="modal-np">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>NP Membership</h3>
+                <p>Complimentary membership for non-profit groups, offering a directory spot and basic perks.</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-bronze">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Bronze Membership</h3>
+                <p>Entry-level paid plan that includes discounts for events and some simple advertising options.</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-silver">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Silver Membership</h3>
+                <p>Expanded benefits such as highlighted directory placement, rotating spotlights, and extra promo tools.</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-gold">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Gold Membership</h3>
+                <p>Our highest-level plan with top advertising exposure, priority access to trainings, and premium visibility.</p>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="address">
