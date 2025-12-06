@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You | Chamber of Commerce</title>
-    <meta name="description" content="Thank you for being part of our Chamber of Commerce.">
+    <title>Discover | Chamber of Commerce</title>
+    <meta name="description" content="Discover interesting or historic places and locations in Bogota, Colombia.">
     <meta name="author" content="Sebastian Plazas">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Thank You | Chamber of Commerce">
-    <meta property="og:description" content="Thank you for being part of our Chamber of Commerce.">
-    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/chamber/thankyou.html">
+    <meta property="og:title" content="Discover | Chamber of Commerce">
+    <meta property="og:description" content="Discover interesting or historic places and locations in Bogota, Colombia.">
+    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/chamber/dicover.html">
     <meta property="og:image" content="https://rangerkoala.github.io/wdd231/chamber/images/meta-image.jpg">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/thankyou.js" defer></script>
+    <script src="scripts/discover.js" defer type="module"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/discover.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -35,14 +35,12 @@
             <a href="discover.html">Discover</a>
         </nav>
     </header>
-    <main class="thankyou-main">
-        <section class="thankyou-card">
-            <h2>Thank You for Applying!</h2>
-            <p>We received your membership application and will contact you in the next 1-2 business days.</p>
-
-            <h3>Your Submitted Information</h3>
-            <div id="output"></div>
-        </section>
+    <main class="discover-main">
+        <section id="message-card" class="message-card"></section>
+        <h1>Discover Bogota</h1>
+        <div id="locations-grid">
+            <!-- Cards will be populated here by discover.js -->
+        </div>
     </main>
     <footer>
         <div class="address">
