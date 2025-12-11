@@ -3,142 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Us | Chamber of Commerce</title>
-    <meta name="description" content="Be part of our Chamber of Commerce and get access to all our benefits.">
+    <title>Reservar | Conexión X</title>
+    <meta name="description" content="Reserva tu consulta con nosotros o contáctanos si tienes preguntas.">
     <meta name="author" content="Sebastian Plazas">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Join Us | Chamber of Commerce">
-    <meta property="og:description" content="Be part of our Chamber of Commerce and get access to all our benefits.">
-    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/chamber/join.html">
-    <meta property="og:image" content="https://rangerkoala.github.io/wdd231/chamber/images/meta-image.jpg">
+    <meta property="og:title" content="Reservar | Conexión X">
+    <meta property="og:description" content="Reserva tu consulta con nosotros o contáctanos si tienes preguntas.">
+    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/project/schedule.html">
+    <meta property="og:image" content="https://rangerkoala.github.io/wdd231/project/images/meta-image.jpg">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/join.js" defer></script>
+    <script src="scripts/schedule.js" defer></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/schedule.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="header-container">
             <img src="images/logo.svg" loading="lazy" alt="site logo" width="75">
-            <span class="head-title">Chamber of Commerce</span>
+            <span class="head-title">ConeXión</span>
             <button class="hamburger" aria-label="Toggle navigation menu">☰</button>
         </div>
         <nav id="nav-menu">
-            <a href="index.html">Home</a>
-            <a href="directory.html">Directory</a>
-            <a href="join.html">Join</a>
-            <a href="discover.html">Discover</a>
+            <a href="index.html">Inicio</a>
+            <a href="services.html">Servicios</a>
+            <a href="team.html">Equipo</a>
+            <a href="schedule.html">Reservar</a>
         </nav>
     </header>
-    <main class="main-join">
-        <section class="join-form">
-            <h2>Join Us Now!</h2>
+    <main class="main-schedule">
+        <section class="sched-form">
+            <h2>Reserva tu Cita</h2>
+            <section id="message-card" class="message-card"></section>
             <form action="thankyou.html" method="get">
                 <label for="fname">
-                    First Name:
-                    <input type="text" id="fname" name="fname" required autocomplete="given-name" title="Enter your first name.">
+                    Nombre:
+                    <input type="text" id="fname" name="fname" required autocomplete="given-name" title="Ingresa tu nombre.">
                 </label>
                 <label for="lname">
-                    Last Name:
-                    <input type="text" id="lname" name="lname" required autocomplete="family-name" title="Enter your last name.">
-                </label>
-                <label for="title">
-                    Organizational Title:
-                    <input type="text" id="title" name="title" required autocomplete="organization-title" pattern="[A-Za-z -]{7,}" title="Minimum 7 characters. Letters, spaces, and hyphens only.">
+                    Apellido:
+                    <input type="text" id="lname" name="lname" required autocomplete="family-name" title="Ingresa tu apellido.">
                 </label>
                 <label for="email">
-                    Email Address:
-                    <input type="email" id="email" name="email" required autocomplete="email" title="Enter a valid email address." placeholder="name@example.com">
+                    Email:
+                    <input type="email" id="email" name="email" required autocomplete="email" title="Ingresa tu correo electronico" placeholder="nombre@ejemplo.com">
                 </label>
                 <label for="phone">
-                    Phone Number:
-                    <input type="tel" id="phone" name="phone" required autocomplete="tel" title="Enter your phone number.">
+                    Teléfono:
+                    <input type="tel" id="phone" name="phone" required autocomplete="tel" title="Ingresa tu número de teléfono">
                 </label>
-                <label for="organization">
-                    Organization Name:
-                    <input type="text" id="organization" name="organization" required autocomplete="organization" title="Enter your organization's name.">
+                <label for="appointment">Fecha y Hora de la Cita:
+                    <input type="datetime-local" id="appointment" name="appointmentdate" required title="Selecciona la fecha y hora de tu cita.">
                 </label>
-                <label for="membership">
-                    <select name="membership" id="membership" required title="Select a membership level.">
-                        <option value>Select a Level</option>
-                        <option value="np">NP Membership</option>
-                        <option value="bronze">Bronze Membership</option>
-                        <option value="silver">Silver Membership</option>
-                        <option value="gold">Gold Membership</option>
+                <legend>Lugar de la Cita:</legend>
+                <div class="div-radio">
+                    <input type="radio" id="bogota" name="app-place" value="bogota" required>
+                    <label for="bogota">Bogotá</label>
+                </div>
+                <div class="div-radio">
+                    <input type="radio" id="sogamoso" name="app-place" value="sogamoso">
+                    <label for="sogamoso">Sogamoso</label>
+                </div>
+                <div class="div-radio">
+                    <input type="radio" id="virtual" name="app-place" value="virtual">
+                    <label for="virtual">Virtual</label>
+                </div>
+                <label for="app-type">Tipo de Consulta:
+                    <select name="app-type" id="app-type" required title="Selecciona el tipo de consulta.">
+                        <option value>Selecciona el tipo de consulta</option>
+                        <option value="clinica">Clínica</option>
+                        <option value="formativa">Formativa</option>
+                        <option value="empresarial">Empresarial</option>
                     </select>
                 </label>
                 <label for="description">
-                    Business Description:
-                    <textarea id="description" name="description" title="Describe your organization."></textarea>
+                    Información Adicional:
+                    <textarea id="description" name="description" title="Información adicional." placeholder="Cuéntanos más sobre lo que necesitas."></textarea>
                 </label>
                 <input type="hidden" id="timestamp" name="timestamp">
-                <button class="btn" type="submit">Submit Application</button>
+                <button class="btn" type="submit">Recervar</button>
             </form>
         </section>
-        <section class="join-levels">
-            <h2>Membership Levels</h2>
-            <div class="card-level fade-in">
-                <h3>NP Membership</h3>
-                <button class="open-modal btn" data-modal="modal-np">Learn More</button>
-            </div>
-            <div class="card-level fade-in">
-                <h3>Bronze Membership</h3>
-                <button class="open-modal btn" data-modal="modal-bronze">Learn More</button>   
-            </div>
-            <div class="card-level fade-in">
-                <h3>Silver Membership</h3>
-                <button class="open-modal btn" data-modal="modal-silver">Learn More</button>
-            </div>
-            <div class="card-level fade-in">
-                <h3>Gold Membership</h3>
-                <button class="open-modal btn" data-modal="modal-gold">Learn More</button>
+        <section class="contact-info">
+            <div>
+                <h2>Contáctanos</h2>
+                <h3>Conexión X</h3>
+                <p><b>Teléfono:</b> +57 3014855445</p>
+                <p><b>Email:</b> conexiondiezcolombia@gmail.com</p>
+                <p><b>Consultorio en:</b> Bogotá, Sogamoso y Consulta virtual</p>
+                <figure>
+                    <img src="images/contact.jpg" alt="consulta imagen" loading="lazy" width="300">
+                    <figcaption>Estamos aquí para ayudarte.</figcaption>
+                </figure>
             </div>
         </section>
-
-        <div class="modal" id="modal-np">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h3>NP Membership</h3>
-                <p>Complimentary membership for non-profit groups, offering a directory spot and basic perks.</p>
-            </div>
-        </div>
-
-        <div class="modal" id="modal-bronze">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h3>Bronze Membership</h3>
-                <p>Entry-level paid plan that includes discounts for events and some simple advertising options.</p>
-            </div>
-        </div>
-
-        <div class="modal" id="modal-silver">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h3>Silver Membership</h3>
-                <p>Expanded benefits such as highlighted directory placement, rotating spotlights, and extra promo tools.</p>
-            </div>
-        </div>
-
-        <div class="modal" id="modal-gold">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h3>Gold Membership</h3>
-                <p>Our highest-level plan with top advertising exposure, priority access to trainings, and premium visibility.</p>
-            </div>
-        </div>
     </main>
     <footer>
         <div class="address">
-            <p><b>The Chamber of Commerce</b><br>
-            123 Chamber ST <br>
-            Chamber City, UT 45678 <br>
-            info@chamberofcommerce.org <br>
-            (222) 333-4444</p>
+            <p><b>Conexión X</b><br>
+            conexiondiezcolombia@gmail.com<br>
+            +57 3014855445<br>
+            Consultorio en Bogotá, Sogamoso y Consulta virtual</p>
         </div>
         <div class="socialmedia">
             <a href="#"><img src="images/youtube.svg" alt="youtube" width="50"></a>
@@ -148,7 +117,7 @@
         <div class="copyright">
             <p>WDD231 Class Project <br>
             Sebastian Plazas</p>
-            <p>©<span id="currentYear"></span> The Chamber of Commerce</p>
+            <p>©<span id="currentYear"></span> Conexión X</p>
             <p id="lastModified"></p>
         </div>
     </footer>
