@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Conexión X</title>
+    <meta name="description" content="Bienvenido a Conexión X, conoce más sobre lo que hacemos.">
+    <meta name="author" content="Sebastian Plazas">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Inicio | Conexión X">
+    <meta property="og:description" content="Bienvenido a Conexión X, conoce más sobre lo que hacemos.">
+    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/project/index.html">
+    <meta property="og:image" content="https://rangerkoala.github.io/wdd231/project/images/meta-image.jpg">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/services.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.svg" loading="lazy" alt="site logo" width="75">
+            <span class="head-title">ConeXión</span>
+            <button class="hamburger" aria-label="Toggle navigation menu">☰</button>
+        </div>
+        <nav id="nav-menu">
+            <a href="index.html">Inicio</a>
+            <a href="services.html">Servicios</a>
+            <a href="team.html">Equipo</a>
+            <a href="schedule.html">Reservar</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Nuestros Servicios</h1>
+        <section class="services-section">
+            <div class="services-cards">
+                <section class="service-card">
+                    <h2>Clínicos</h2>
+                    <div class="service-div">
+                        <div class="service">
+                            <h3>Conecta con tus emociones.</h3>
+                            <p>Brindamos procesos enfocados al mejoramiento de la salud mental a través de una variedad de terapias psicológicas para niños, adolescentes, adultos, parejas y familias.</p>
+                            <button class="btn-service open-modal" data-modal="modal-clini">Más Información</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-card">
+                    <h2>Formativos</h2>
+                    <div class="service-div">
+                        <div class="service">
+                            <h3>Conecta con tu desarrollo.</h3>
+                            <p>A través de diversos programas brindamos herramientas para el desarrollo personal a través de cursos, capacitaciones, coaching, orientación vocacional y acompañamiento estudiantil</p>
+                            <button class="btn-service open-modal" data-modal="modal-forma">Más Información</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-card">
+                    <h2>Empresariales</h2>
+                    <div class="service-div">
+                        <div class="service">
+                            <h3>Conecta con tu equipo.</h3>
+                            <p>Brindamos consultoría a medianas y pequeñas empresas en implementación de soluciones para talento humano a través de programas de selección, bienestar, formación y desarrollo.</p>
+                            <button class="btn-service open-modal" data-modal="modal-empre">Más Información</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="how">
+            <h2>Como Funciona</h2>
+            <h3>Tres pasos sencillos para empezar</h3>
+            <div class="steps">
+                <div class="step">
+                    <img src="images/step1.svg" alt="step 1" width="100">
+                    <h4>Reserva</h4>
+                    <p>Agenda la consulta en el calendario. Ofrezcemos horarios flexibles que se adaptan a tus necesidades.</p>
+                </div>
+                <div class="step">
+                    <img src="images/step2.svg" alt="step 2" width="100">
+                    <h4>Evaluación</h4>
+                    <p>En la primera sesión evaluamos necesidades, prioridades y diseñamos objetivos concretos para las próximas semanas.</p>
+                </div>
+                <div class="step">
+                    <img src="images/step3.svg" alt="step 3" width="100">
+                    <h4>Acompañamiento</h4>
+                    <p>Sesiones orientadas a resultados con tareas prácticas para casa y seguimiento entre citas para sostener el cambio.</p>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <h2>Testimonios</h2>
+            <div class="review-cards" id="review-cards">        
+                <!-- Review cards will be populated here by services.js -->
+            </div>
+        </section>
+        <section class="schedule-action-section">
+            <h2>Reserva tu consulta</h2>
+            <h3>Empieza con un primer paso sencillo</h3>
+            <p>Haz clic en reservar, elige el horario que te convenga y recibe una confirmación inmediata. La primera consulta es gratuita y nos permite diseñar un plan claro para tí, tu familia o empresa.</p>
+            <button onclick="window.location.href='schedule.html'">Reserva tu Consulta</button>
+        </section>
+
+
+        <!-- Modals -->
+         <div class="modal" id="modal-clini">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Clínicos</h3>
+                <ul>
+                    <li><strong>Terapia individual</strong> para manejo emocional, ansiedad, depresión, duelo y autoestima (niños, adolescentes y adultos).</li>
+                    <li><strong>Terapia de pareja</strong> para mejorar la comunicación, resolver conflictos y fortalecer vínculos afectivos.</li>
+                    <li><strong>Terapia familiar</strong> para mejorar dinámicas, roles y el funcionamiento del sistema familiar.</li>
+                    <li><strong>Evaluaciones psicológicas</strong> (pruebas de personalidad, evaluación cognitiva y diagnósticos clínicos).</li>
+                    <li><strong>Acompañamiento en crisis</strong>: intervención breve en momentos de alto impacto emocional.</li>
+                    <li><strong>Psicoeducación</strong>: herramientas prácticas para comprender y manejar síntomas y emociones.</li>
+                    <li><strong>Modalidades</strong>: sesiones presenciales y en línea; procesos de corto y largo plazo según necesidad.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-forma">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Formativos</h3>
+                <ul>
+                    <li><strong>Cursos y talleres</strong> en inteligencia emocional, comunicación, liderazgo y hábitos saludables.</li>
+                    <li><strong>Capacitaciones personalizadas</strong> en habilidades blandas, manejo del estrés y trabajo en equipo.</li>
+                    <li><strong>Coaching</strong> personal o profesional para potenciar metas, toma de decisiones y rendimiento.</li>
+                    <li><strong>Orientación vocacional</strong> para adolescentes y adultos que buscan claridad en su proyecto de vida.</li>
+                    <li><strong>Acompañamiento estudiantil</strong> en técnicas de estudio, planificación y motivación.</li>
+                    <li><strong>Programas a la medida</strong> diseñados según perfil y objetivos del participante o institución.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-empre">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Empresariales</h3>
+                <ul>
+                    <li><strong>Selección de personal</strong>: perfiles por competencias, entrevistas estructuradas y pruebas psicométricas.</li>
+                    <li><strong>Programas de bienestar laboral</strong> para mejorar clima organizacional y prevenir el estrés.</li>
+                    <li><strong>Capacitación corporativa</strong> en liderazgo, servicio al cliente, comunicación efectiva y gestión de equipos.</li>
+                    <li><strong>Formación y desarrollo</strong>: planes de carrera, evaluación de desempeño y desarrollo de competencias.</li>
+                    <li><strong>Consultoría en talento humano</strong>: diagnóstico organizacional e implementación de estrategias.</li>
+                    <li><strong>Intervenciones grupales</strong>: team building, mediación de conflictos y fortalecimiento de la cultura organizacional.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="address">
+            <p><b>Conexión X</b><br>
+            conexiondiezcolombia@gmail.com<br>
+            +57 3014855445<br>
+            Consultorio en Bogotá, Sogamoso y Consulta virtual</p>
+        </div>
+        <div class="socialmedia">
+            <a href="#"><img src="images/youtube.svg" alt="youtube" width="50"></a>
+            <a href="#"><img src="images/twitter.svg" alt="twitter" width="50"></a>
+            <a href="#"><img src="images/linkedin.svg" alt="linkedin" width="50"></a>
+        </div>
+        <div class="copyright">
+            <p>WDD231 Class Project <br>
+            Sebastian Plazas</p>
+            <p>©<span id="currentYear"></span> Conexión X</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

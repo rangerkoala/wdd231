@@ -1,0 +1,54 @@
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 999;
+}
+
+.modal h3 {
+    text-align: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 10% auto;
+    width: auto;
+    max-width: 450px;
+    position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.how {
+    margin: 1rem auto;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    background-color: white;
+}
+
+.steps {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.steps img {
+    width: 50px;
+    filter: invert(40%) sepia(95%) saturate(2668%) hue-rotate(196deg) brightness(94%) contrast(101%);
+}
+
+.reviews {
+    margin: 1rem auto;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}

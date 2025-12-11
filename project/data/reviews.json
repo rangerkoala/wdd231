@@ -1,0 +1,94 @@
+{
+  "reviews": [
+    {
+      "nombre": "María Fernanda Ríos",
+      "tipo_servicio": "Clínico",
+      "testimonio": "La terapia me ayudó a entender mejor mis emociones y a manejar la ansiedad que venía acumulando desde hacía meses. Me sentí escuchada y acompañada en todo momento.",
+      "lugar_consulta": "Bogotá"
+    },
+    {
+      "nombre": "Esteban López",
+      "tipo_servicio": "Clínico",
+      "testimonio": "Encontré un espacio seguro para hablar de cosas que nunca había compartido. El proceso ha sido muy valioso para mejorar mi bienestar emocional.",
+      "lugar_consulta": "Virtual"
+    },
+    {
+      "nombre": "Daniela Suárez",
+      "tipo_servicio": "Clínico",
+      "testimonio": "La atención fue muy profesional y cálida. Ahora entiendo mejor mis patrones y tengo herramientas para afrontar mis días con más tranquilidad.",
+      "lugar_consulta": "Sogamoso"
+    },
+    {
+      "nombre": "Jorge Ramírez",
+      "tipo_servicio": "Formativo",
+      "testimonio": "El taller de inteligencia emocional superó mis expectativas. Las herramientas aprendidas han mejorado mi comunicación y mi desempeño laboral.",
+      "lugar_consulta": "Bogotá"
+    },
+    {
+      "nombre": "Lorena Quiroga",
+      "tipo_servicio": "Formativo",
+      "testimonio": "La orientación vocacional me ayudó a definir con claridad mis metas profesionales y sentirme más segura del camino que quiero seguir.",
+      "lugar_consulta": "Virtual"
+    },
+    {
+      "nombre": "Sebastián Cárdenas",
+      "tipo_servicio": "Formativo",
+      "testimonio": "Las capacitaciones fueron prácticas y aplicables desde el primer día. Me ayudaron a desarrollar habilidades blandas fundamentales.",
+      "lugar_consulta": "Bogotá"
+    },
+    {
+      "nombre": "Paula Avellaneda",
+      "tipo_servicio": "Formativo",
+      "testimonio": "El acompañamiento estudiantil fue clave para mejorar mis hábitos de estudio. Ahora me siento más organizada y motivada.",
+      "lugar_consulta": "Sogamoso"
+    },
+    {
+      "nombre": "Carolina Silva",
+      "tipo_servicio": "Empresarial",
+      "testimonio": "La consultoría nos permitió mejorar los procesos internos de selección y fortalecer el clima laboral. Se notó el impacto rápidamente.",
+      "lugar_consulta": "Bogotá"
+    },
+    {
+      "nombre": "Mauricio Herrera",
+      "tipo_servicio": "Empresarial",
+      "testimonio": "El programa de bienestar fue un éxito en nuestro equipo. Hubo mejoras en motivación, comunicación y resolución de conflictos.",
+      "lugar_consulta": "Virtual"
+    },
+    {
+      "nombre": "Nathalia Torres",
+      "tipo_servicio": "Empresarial",
+      "testimonio": "Recibimos un diagnóstico claro y estrategias aplicables para fortalecer el talento humano. El acompañamiento fue muy profesional.",
+      "lugar_consulta": "Sogamoso"
+    },
+    {
+      "nombre": "Óscar Beltrán",
+      "tipo_servicio": "Clínico",
+      "testimonio": "La terapia familiar nos ayudó a mejorar la comunicación en casa. Fue un proceso transformador para todos.",
+      "lugar_consulta": "Bogotá"
+    },
+    {
+      "nombre": "Vanessa Montoya",
+      "tipo_servicio": "Clínico",
+      "testimonio": "El proceso terapéutico me dio claridad emocional y herramientas para enfrentar momentos difíciles. Muy recomendado.",
+      "lugar_consulta": "Virtual"
+    },
+    {
+      "nombre": "Luis Felipe Pedraza",
+      "tipo_servicio": "Formativo",
+      "testimonio": "El coaching profesional me permitió enfocarme, estructurar mis metas y avanzar más rápido de lo que esperaba.",
+      "lugar_consulta": "Bogotá"
+    },
+    {
+      "nombre": "Angela Páez",
+      "tipo_servicio": "Empresarial",
+      "testimonio": "La capacitación en liderazgo fue dinámica, clara y realmente útil. Todo el equipo salió motivado y con herramientas nuevas.",
+      "lugar_consulta": "Virtual"
+    },
+    {
+      "nombre": "Rafael Gómez",
+      "tipo_servicio": "Clínico",
+      "testimonio": "A través de las sesiones pude comprender mejor mis emociones y mejorar relaciones importantes en mi vida. El proceso ha sido muy valioso.",
+      "lugar_consulta": "Sogamoso"
+    }
+  ]
+}

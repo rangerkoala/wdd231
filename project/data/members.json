@@ -1,0 +1,104 @@
+{
+  "members": [
+    {
+      "name": "TechNova Solutions",
+      "address": "123 Innovation Drive, San Francisco, CA 94107",
+      "phone": "+1 (415) 555-4829",
+      "website": "https://www.technova.io",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/technova-logo.png",
+      "membershipLevel": 3,
+      "description": "Specializing in cloud computing, AI integration, and enterprise automation.",
+      "foundedYear": 2012
+    },
+    {
+      "name": "GreenLeaf Organics",
+      "address": "742 Evergreen Ave, Portland, OR 97205",
+      "phone": "+1 (503) 555-2198",
+      "website": "https://www.greenleaforganics.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/greenleaf.png",
+      "membershipLevel": 2,
+      "description": "A sustainable grocery chain focused on organic, locally sourced products.",
+      "foundedYear": 2008
+    },
+    {
+      "name": "Aether Digital Studios",
+      "address": "55 Pixel Street, Austin, TX 73301",
+      "phone": "+1 (512) 555-6634",
+      "website": "https://www.aetherstudios.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/aether-icon.png",
+      "membershipLevel": 1,
+      "description": "A creative design agency offering branding, UI/UX, and motion graphics services.",
+      "foundedYear": 2016
+    },
+    {
+      "name": "BlueWave Cybersecurity",
+      "address": "901 Atlantic Blvd, Miami, FL 33130",
+      "phone": "+1 (305) 555-8732",
+      "website": "https://www.bluewavecyber.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/bluewave-logo.png",
+      "membershipLevel": 3,
+      "description": "Provides enterprise-grade cybersecurity solutions and data protection services.",
+      "foundedYear": 2010
+    },
+    {
+      "name": "Skyline Architecture Group",
+      "address": "460 Skyline Blvd, Denver, CO 80203",
+      "phone": "+1 (720) 555-9402",
+      "website": "https://www.skylinearchgroup.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/skyline.png",
+      "membershipLevel": 2,
+      "description": "Award-winning firm focused on sustainable architecture and urban design.",
+      "foundedYear": 2005
+    },
+    {
+      "name": "LunaTech Robotics",
+      "address": "27 Orbit Lane, Seattle, WA 98101",
+      "phone": "+1 (206) 555-1177",
+      "website": "https://www.lunatechrobotics.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/lunatech.png",
+      "membershipLevel": 3,
+      "description": "Develops advanced robotics and AI-driven automation for industrial applications.",
+      "foundedYear": 2018
+    },
+    {
+      "name": "HarborView Financial",
+      "address": "300 Harbor Street, Boston, MA 02110",
+      "phone": "+1 (617) 555-3344",
+      "website": "https://www.harborviewfin.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/harborview.png",
+      "membershipLevel": 1,
+      "description": "Financial advisory firm offering investment and retirement planning services.",
+      "foundedYear": 1999
+    },
+    {
+      "name": "CrimsonPeak Analytics",
+      "address": "18 Data Drive, Chicago, IL 60611",
+      "phone": "+1 (312) 555-7745",
+      "website": "https://www.crimsonpeakanalytics.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/crimsonpeak.png",
+      "membershipLevel": 2,
+      "description": "Data science and business intelligence firm specializing in predictive analytics and big data solutions.",
+      "foundedYear": 2014
+    },
+    {
+      "name": "SolarEdge Energy Co.",
+      "address": "890 Sun Valley Rd, Phoenix, AZ 85004",
+      "phone": "+1 (602) 555-2909",
+      "website": "https://www.solaredgeenergyco.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/solaredge-logo.png",
+      "membershipLevel": 3,
+      "description": "Renewable energy provider offering solar panel installations and sustainable power systems for homes and businesses.",
+      "foundedYear": 2009
+    },
+    {
+      "name": "Aurora Travel Agency",
+      "address": "77 Wanderlust Blvd, Orlando, FL 32801",
+      "phone": "+1 (407) 555-6802",
+      "website": "https://www.auroratravel.com",
+      "image": "https://rangerkoala.github.io/wdd231/chamber/images/aurora-logo.png",
+      "membershipLevel": 1,
+      "description": "Boutique travel agency creating custom luxury vacation experiences and eco-tourism packages.",
+      "foundedYear": 2011
+    }
+  ]
+}

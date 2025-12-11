@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Conexión X</title>
+    <meta name="description" content="Bienvenido a Conexión X, conoce más sobre lo que hacemos.">
+    <meta name="author" content="Sebastian Plazas">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Inicio | Conexión X">
+    <meta property="og:description" content="Bienvenido a Conexión X, conoce más sobre lo que hacemos.">
+    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/project/index.html">
+    <meta property="og:image" content="https://rangerkoala.github.io/wdd231/project/images/meta-image.jpg">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.svg" loading="lazy" alt="site logo" width="75">
+            <span class="head-title">ConeXión</span>
+            <button class="hamburger" aria-label="Toggle navigation menu">☰</button>
+        </div>
+        <nav id="nav-menu">
+            <a href="index.html">Inicio</a>
+            <a href="services.html">Servicios</a>
+            <a href="team.html">Equipo</a>
+            <a href="schedule.html">Reservar</a>
+        </nav>
+    </header>
+    <main class="main-home">
+        <section class="hero-section">
+            <picture class="hero-image">
+                <source srcset="images/hero-image-l.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-image-m.webp" media="(min-width: 768px)">
+                <img src="images/hero-image-s.webp" alt="Conexiion X hero image" loading="lazy">
+            </picture>
+            <div class="hero-button">
+                <button onclick="window.location.href='schedule.html'">Reservar Consulta</button>
+            </div> 
+        </section>
+        <section class="home-us">
+            <h1>¿Quiénes Somos?</h1>
+            <section class="home-info">
+                <p>En Conexión diez, nos dedicamos a potenciar el bienestar y el desarrollo humano a través de servicios psicológicos integrales. Guiados por la empatía, la excelencia y la ética, nuestro compromiso es proporcionar soluciones innovadoras y personalizadas en áreas de talento humano, psicología clínica y desarrollo personal. Nos esforzamos por ser un faro de apoyo y transformación, facilitando el crecimiento personal y profesional para individuos, equipos y organizaciones. Nuestra misión es construir puentes hacia la salud mental, promoviendo una sociedad más equitativa, resiliente y consciente.
+                </p>
+            </section>
+        </section>
+        <section class="home-services">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-cards">
+                <section class="service-card">
+                    <h2>Clínicos</h2>
+                    <div class="service-div">
+                        <div class="service">
+                            <h3>Conecta con tus emociones.</h3>
+                            <p>Brindamos procesos enfocados al mejoramiento de la salud mental a través de una variedad de terapias psicológicas para niños, adolescentes, adultos, parejas y familias.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-card">
+                    <h2>Formativos</h2>
+                    <div class="service-div">
+                        <div class="service">
+                            <h3>Conecta con tu desarrollo.</h3>
+                            <p>A través de diversos programas brindamos herramientas para el desarrollo personal a través de cursos, capacitaciones, coaching, orientación vocacional y acompañamiento estudiantil</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="service-card">
+                    <h2>Empresariales</h2>
+                    <div class="service-div">
+                        <div class="service">
+                            <h3>Conecta con tu equipo.</h3>
+                            <p>Brindamos consultoría a medianas y pequeñas empresas en implementación de soluciones para talento humano a través de programas de selección, bienestar, formación y desarrollo.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <button onclick="window.location.href='services.html'">Más Información</button>
+        </section>
+        <section class="home-values">
+            <div class="values-info">
+                <h2>Nuestros Valores</h2>
+                <p><b>Empatía:</b> Comprendemos las necesidades y experiencias de nuestros clientes y colegas, fomentando un ambiente de comprensión y apoyo mutuo.</p>
+                <p><b>Excelencia:</b> Nos esforzamos constantemente por la excelencia en la prestación de servicios, la formación profesional y el desarrollo continuo, buscando superar las expectativas en cada interacción.</p>
+                <p><b>Ética:</b> Actuamos con integridad y respeto en todas nuestras relaciones, manteniendo altos estándares éticos en todas las prácticas y decisiones.Innovación: Abrazamos la creatividad y la innovación para ofrecer soluciones psicológicas avanzadas y efectivas, manteniéndonos a la vanguardia de las mejores prácticas y enfoques.</p>
+            </div>
+            <div class="values-image">
+                <img src="images/values.webp" alt="Valores de Conexión X" loading="lazy">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="address">
+            <p><b>Conexión X</b><br>
+            conexiondiezcolombia@gmail.com<br>
+            +57 3014855445<br>
+            Consultorio en Bogotá, Sogamoso y Consulta virtual</p>
+        </div>
+        <div class="socialmedia">
+            <a href="#"><img src="images/youtube.svg" alt="youtube" width="50"></a>
+            <a href="#"><img src="images/twitter.svg" alt="twitter" width="50"></a>
+            <a href="#"><img src="images/linkedin.svg" alt="linkedin" width="50"></a>
+        </div>
+        <div class="copyright">
+            <p>WDD231 Class Project <br>
+            Sebastian Plazas</p>
+            <p>©<span id="currentYear"></span> Conexión X</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
