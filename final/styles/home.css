@@ -20,13 +20,19 @@
     z-index: 5; /* keep below any overlaying menus */
 }
 
-.hero-button button {
+.hero-button a {
     background-color: var(--back-color);
     color: var(--primary-color);
     box-shadow: 5px 5px var(--primary-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin: 0 0.3rem;
 }
 
-.hero-button button:hover { 
+.hero-button a:hover { 
     color: var(--primary-color);
     box-shadow: 2px 2px var(--primary-color);
     transform: translateY(2px);
@@ -87,14 +93,14 @@
         right: 8%;
     }
 
-    .hero-button button {
+    .hero-button a {
         font-size: 1.5rem;
     }
 }
 
 @media (min-width: 930px) {
 
-    .hero-button button {
+    .hero-button a {
         font-size: 2rem;
     }
 
@@ -102,7 +108,7 @@
 
 @media (min-width: 1224px) {
 
-    .hero-button button {
+    .hero-button a {
         font-size: 2.5rem;
     }
 

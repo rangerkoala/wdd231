@@ -86,7 +86,7 @@ h1 {
     margin-left: 1rem;
 }
 
-button {
+button, .btnlink {
     color: var(--back-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -97,7 +97,7 @@ button {
     margin: 0 0.3rem;
 }
 
-button:hover {
+button:hover, .btnlink:hover {
     background-color: var(--accent-color);
     color: var(--back-color);
 }
