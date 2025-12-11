@@ -20,7 +20,7 @@ modals.forEach(modal => {
 
 // reviews cards functionality
 
-const clientsUrl = 'https://rangerkoala.github.io/wdd231/project/data/reviews.json';
+const clientsUrl = 'https://rangerkoala.github.io/wdd231/final/data/reviews.json';
 
 async function getClientReviews() {
     try {

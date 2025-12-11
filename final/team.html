@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gracias | Conexión X</title>
-    <meta name="description" content="Gracias por reservar tu consulta con Conexión X.">
+    <title>Equipo | Conexión X</title>
+    <meta name="description" content="Conoce más sobre nuestro equipo de profesionales en Conexión X.">
     <meta name="author" content="Sebastian Plazas">
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Gracias | Conexión X">
-    <meta property="og:description" content="Gracias por reservar tu consulta con Conexión X.">
-    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/project/thankyou.html">
-    <meta property="og:image" content="https://rangerkoala.github.io/wdd231/project/images/meta-image.jpg">
+    <meta property="og:title" content="Equipo | Conexión X">
+    <meta property="og:description" content="Conoce más sobre nuestro equipo de profesionales en Conexión X.">
+    <meta property="og:url" content="https://rangerkoala.github.io/wdd231/final/team.html">
+    <meta property="og:image" content="https://rangerkoala.github.io/wdd231/final/images/meta-image.jpg">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/schedule.js" defer></script>
+    <script src="scripts/team.js" type="module"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/schedule.css">
+    <link rel="stylesheet" href="styles/team.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-</head>
 <body>
     <header>
         <div class="header-container">
@@ -35,13 +34,19 @@
             <a href="schedule.html">Reservar</a>
         </nav>
     </header>
-    <main class="thankyou-main">
-        <section class="thankyou-card">
-            <h2>Gracias por agendar tu cita</h2>
-            <p>Nos comunicaremos contigo en las próximas 24 horas para ver los detalles de tu cita.</p>
-
-            <h3>Detalles de tu cita:</h3>
-            <div id="output"></div>
+    <main class="team-main">
+        <section class="team-section">
+            <h2>Nuestro Equipo</h2>
+            <h4>Contamos con un equipo de profesionales con años de experiencia en sus respectivos campos, listos para ayudarte.</h4>
+            <div id="team-grid">
+                <!-- Cards will be populated here by team.js -->
+            </div>
+        </section>
+        <section class="schedule-action-section">
+            <h2>Reserva tu consulta</h2>
+            <h3>Empieza con un primer paso sencillo</h3>
+            <p>Haz clic en reservar, elige el horario que te convenga y recibe una confirmación inmediata. La primera consulta es gratuita y nos permite diseñar un plan claro para tí, tu familia o empresa.</p>
+            <button onclick="window.location.href='schedule.html'">Reserva tu Consulta</button>
         </section>
     </main>
     <footer>
